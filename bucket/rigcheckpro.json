@@ -1,0 +1,25 @@
+{
+    "version": "2.1.1",
+    "description": "PC diagnostic tool for repair shops and enthusiasts with self-checking stress tests and branded customer certificates.",
+    "homepage": "https://razorlinestudios.co.uk/app.php?slug=rigcheckpro",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://razorlinestudios.co.uk/licence.php"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://razorlinestudios.co.uk/downloads/RigCheckPro-Setup-2.1.1.exe",
+            "hash": "2EED9B7A5363C751D86139A0AB82D91A36F0F5C49701BDDB5B1396082F7BEDBA"
+        }
+    },
+    "installer": {
+        "file": "RigCheckPro-Setup-2.1.1.exe",
+        "args": [
+            "--silent"
+        ]
+    },
+    "checkver": {
+        "url": "https://razorlinestudios.co.uk/app.php?slug=rigcheckpro",
+        "regex": "Version ([\\d.]+)"
+    }
+}
