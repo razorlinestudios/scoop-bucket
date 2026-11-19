@@ -1,0 +1,25 @@
+{
+    "version": "1.0.0",
+    "description": "Offline AI music studio that generates full songs and backing tracks locally on Windows.",
+    "homepage": "https://razorlinestudios.co.uk/app.php?slug=songgenix",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://razorlinestudios.co.uk/licence.php"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://razorlinestudios.co.uk/downloads/SongGenix-Setup-1.0.0.exe",
+            "hash": "695C1213DCD5E75640F9393F0FB0E4ECA1B5D60903D46D169ADF8D5DA84B0F01"
+        }
+    },
+    "installer": {
+        "file": "SongGenix-Setup-1.0.0.exe",
+        "args": [
+            "--silent"
+        ]
+    },
+    "checkver": {
+        "url": "https://razorlinestudios.co.uk/app.php?slug=songgenix",
+        "regex": "Version ([\\d.]+)"
+    }
+}
