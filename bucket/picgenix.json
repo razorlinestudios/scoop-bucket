@@ -1,0 +1,25 @@
+{
+    "version": "1.0.1",
+    "description": "Private generative AI image creation studio running locally on Windows NVIDIA GPUs.",
+    "homepage": "https://razorlinestudios.co.uk/app.php?slug=picgenix",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://razorlinestudios.co.uk/licence.php"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://razorlinestudios.co.uk/downloads/PicGenix-Setup-1.0.1.exe",
+            "hash": "4280CA1129008FC32BA2FFCAB87C0865069BC1A76811A0EAE96DD8C4CBC6535F"
+        }
+    },
+    "installer": {
+        "file": "PicGenix-Setup-1.0.1.exe",
+        "args": [
+            "--silent"
+        ]
+    },
+    "checkver": {
+        "url": "https://razorlinestudios.co.uk/app.php?slug=picgenix",
+        "regex": "Version ([\\d.]+)"
+    }
+}
