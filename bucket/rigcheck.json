@@ -1,0 +1,25 @@
+{
+    "version": "1.0.8",
+    "description": "PC health check for Windows 10 and 11 in plain English, with a 0-100 score, clear fixes and honest upgrade advice.",
+    "homepage": "https://razorlinestudios.co.uk/app.php?slug=rigcheck",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://razorlinestudios.co.uk/licence.php"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://razorlinestudios.co.uk/downloads/RigCheck-Setup-1.0.8.exe",
+            "hash": "9EF7400EDD1B4A15BB2768CEBEF8EFAC0F2FBD473133F691E40463744E293D55"
+        }
+    },
+    "installer": {
+        "file": "RigCheck-Setup-1.0.8.exe",
+        "args": [
+            "--silent"
+        ]
+    },
+    "checkver": {
+        "url": "https://razorlinestudios.co.uk/app.php?slug=rigcheck",
+        "regex": "Version ([\\d.]+)"
+    }
+}
