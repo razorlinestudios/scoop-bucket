@@ -1,0 +1,25 @@
+{
+    "version": "1.0.1",
+    "description": "Batch watermark photos and PDFs locally with smart placement, protection score and EXIF scrubbing.",
+    "homepage": "https://razorlinestudios.co.uk/app.php?slug=pixelmark",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://razorlinestudios.co.uk/licence.php"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://razorlinestudios.co.uk/downloads/PixelMark-Setup-1.0.1.exe",
+            "hash": "CE15EA10287678F8CBBC935989BEFAD35E8944C4853A3745EF6B4EB04B8EDF6C"
+        }
+    },
+    "installer": {
+        "file": "PixelMark-Setup-1.0.1.exe",
+        "args": [
+            "--silent"
+        ]
+    },
+    "checkver": {
+        "url": "https://razorlinestudios.co.uk/app.php?slug=pixelmark",
+        "regex": "Version ([\\d.]+)"
+    }
+}
