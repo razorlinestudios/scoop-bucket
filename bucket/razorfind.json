@@ -1,0 +1,25 @@
+{
+    "version": "1.5.0",
+    "description": "Whole-drive instant file search engine with millisecond indexing, duplicate finder and real folder sizes.",
+    "homepage": "https://razorlinestudios.co.uk/app.php?slug=razorfind",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://razorlinestudios.co.uk/licence.php"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://razorlinestudios.co.uk/downloads/RazorFind-Setup.exe",
+            "hash": "292D09C9A3B24EF66171B3427E1854702A79C63F33EB63FDCC6D7B9D8683AD13"
+        }
+    },
+    "installer": {
+        "file": "RazorFind-Setup.exe",
+        "args": [
+            "--silent"
+        ]
+    },
+    "checkver": {
+        "url": "https://razorlinestudios.co.uk/app.php?slug=razorfind",
+        "regex": "Version ([\\d.]+)"
+    }
+}
