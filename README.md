@@ -15,7 +15,7 @@ scoop install razorline/rigcheck
 | :--- | :--- | :--- | :--- |
 | **RigCheck** | `1.0.8` | `scoop install razorline/rigcheck` | [Product Page](https://razorlinestudios.co.uk/app.php?slug=rigcheck) |
 | **RigCheck Pro** | `2.1.1` | `scoop install razorline/rigcheckpro` | [Product Page](https://razorlinestudios.co.uk/app.php?slug=rigcheckpro) |
-| **PlaySmith** | `1.0.20` | `scoop install razorline/playsmith` | [Product Page](https://razorlinestudios.co.uk/app.php?slug=playsmith) |
+| **PlaySmith** | `1.0.21` | `scoop install razorline/playsmith` | [Product Page](https://razorlinestudios.co.uk/app.php?slug=playsmith) |
 | **PixelMark** | `1.0.1` | `scoop install razorline/pixelmark` | [Product Page](https://razorlinestudios.co.uk/app.php?slug=pixelmark) |
 | **RazorFind** | `1.5.0` | `scoop install razorline/razorfind` | [Product Page](https://razorlinestudios.co.uk/app.php?slug=razorfind) |
 | **SongGenix** | `1.0.0` | `scoop install razorline/songgenix` | [Product Page](https://razorlinestudios.co.uk/app.php?slug=songgenix) |
