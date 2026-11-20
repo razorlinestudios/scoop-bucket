@@ -1,5 +1,5 @@
 {
-    "version": "1.0.20",
+    "version": "1.0.21",
     "description": "Privacy-first media player for Windows 11 powered by VLC with auto-fix recovery and volume leveling.",
     "homepage": "https://razorlinestudios.co.uk/app.php?slug=playsmith",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://razorlinestudios.co.uk/downloads/PlaySmith-Setup-1.0.20.exe",
-            "hash": "6620EA8FA975D1286F40499082E5C598995168FF5BCACD08069F7FF05CFD0168"
+            "url": "https://razorlinestudios.co.uk/downloads/PlaySmith-Setup-1.0.21.exe",
+            "hash": "06641A7874689198243E82C87CC266C735504C031A728A78BDFC3DA6FB22C8E2"
         }
     },
     "installer": {
-        "file": "PlaySmith-Setup-1.0.20.exe",
+        "file": "PlaySmith-Setup-1.0.21.exe",
         "args": [
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
